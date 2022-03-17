@@ -1,7 +1,7 @@
 function computerPlay() {
     let random = Math.floor(Math.random(3) * 3);
     let choices = ["Rock", "Paper", "Scissors"];
-    let choice = choices[random]
+    let choice = choices[random];
 
     return choice;
 }
